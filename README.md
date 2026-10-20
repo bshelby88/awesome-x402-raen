@@ -407,6 +407,7 @@ Major tech companies leveraging x402 in production include **Coinbase** (Native 
 - [b0xM4](https://b0xm4-solana-pulse.mulberry-boar.workers.dev) - **Meridian-powered Solana DLMM screener.** Real-time TVL, volume, organic score, smart wallet tracking, token safety, fee/TVL yield ranking. 5 endpoints, $0.0001–0.0005 USDC/call. Payout 7P7w3M9yQs5P... on Solana.
 - [agentfeeds.jp](https://api.agentfeeds.jp) - Japan regulatory, sanctions & DEX market data for AI agents. 27 paid endpoints ($0.001-$0.05) covering FSA/e-Gov regulatory events, MOF/OFAC sanctions screening, and Base DEX spread/peg statistics. REST + MCP.
 
+- [Money Reactor](https://money-reactor.makar52nn2016.workers.dev) - 18-endpoint x402 pay-per-call API for AI agents (USDC on Base): crypto prices (BTC/ETH/SOL), market pulse, fear & greed, crypto news, ERC-20 balances, token safety verdicts (honeypot/rugcheck), repo trust verdicts, AI chat, weather, URL-to-text. $0.001-$0.05/call, x402 v1+v2, no API keys. Remote MCP at /mcp; listed in the official MCP Registry. Free: status, health, card, bounties. ([Discovery](https://money-reactor.makar52nn2016.workers.dev/.well-known/x402)) ([MCP](https://money-reactor.makar52nn2016.workers.dev/mcp)) ([GitHub](https://github.com/makar52nn-crypto/x402-money-reactor))
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
